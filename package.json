@@ -2,10 +2,10 @@
   "name": "iBelieve-client",
   "version": "0.0.1",
   "description": "iBelieve javascript client",
-  "main": "dist/src/iBelieve.js",
+  "main": "public/src/iBelieve.js",
   "scripts": {
     "start": "http-server",
-    "build": "webpack src/iBelieve.js -o dist/iBelieve.js"
+    "build": "webpack src/iBelieve.js -o public/iBelieve.js"
   },
   "repository": {
     "type": "git",

@@ -1,9 +1,10 @@
 {
-  "name": "ibelieve",
+  "name": "iBelieve-client",
   "version": "0.0.1",
   "description": "iBelieve javascript client",
   "main": "dist/src/iBelieve.js",
   "scripts": {
+    "start": "http-server",
     "build": "webpack src/iBelieve.js -o dist/iBelieve.js"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/DiterEvan/iBelieve-client#readme",
   "dependencies": {
+    "http-server": "^0.11.1",
     "observerjs": "^0.1.16"
   },
   "devDependencies": {

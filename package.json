@@ -1,0 +1,26 @@
+{
+  "name": "ibelieve",
+  "version": "0.0.1",
+  "description": "iBelieve javascript client",
+  "main": "dist/src/iBelieve.js",
+  "scripts": {
+    "build": "webpack src/iBelieve.js -o dist/iBelieve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiterEvan/iBelieve-client.git"
+  },
+  "author": "Hans Evangelista <@diterevan>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiterEvan/iBelieve-client/issues"
+  },
+  "homepage": "https://github.com/DiterEvan/iBelieve-client#readme",
+  "dependencies": {
+    "observerjs": "^0.1.16"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}

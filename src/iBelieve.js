@@ -6,6 +6,7 @@ class IBelieve {
   constructor() {
     this.app = this.createApp()
     this.button = this.createButton()
+    this.url = 'https://ibelieve.diterevan.com'
   }
 
   createApp() {
@@ -17,7 +18,7 @@ class IBelieve {
     iframeApp.style.width = '100%'
     iframeApp.style.height = '100%'
     iframeApp.style.display = 'none'
-    iframeApp.src = `http://localhost:8080`
+    iframeApp.src = this.url
 
     document.body.appendChild(iframeApp)
 
@@ -29,7 +30,7 @@ class IBelieve {
     const iframeButton = document.createElement('iframe')
 
     iframeButton.style.border = '0px none transparent'
-    iframeButton.src = `http://localhost:8080/button`
+    iframeButton.src = `${this.url}/button`
 
     const buttonContainerId = document.getElementById('iBelive-script').getAttribute('button-container-id')
     const buttonContainer = document.getElementById(buttonContainerId)

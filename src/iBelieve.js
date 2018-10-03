@@ -4,9 +4,9 @@ import Observer from 'observerjs'
 class IBelieve {
 
   constructor() {
+    this.url = 'https://ibelieve.diterevan.com'
     this.app = this.createApp()
     this.button = this.createButton()
-    this.url = 'https://ibelieve.diterevan.com'
   }
 
   createApp() {
